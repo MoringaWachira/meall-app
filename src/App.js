@@ -4,6 +4,7 @@ import Recipe from './components/Contact';
 import Search from './components/Search';
 import { useState, useEffect} from 'react';
 import recipes from "./recipes.json"
+import Footer from './components/Footer';
 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
       </div>
    
       <Search meals={meals}/>
+      <Footer />
       
       <Outlet/>
     </div>

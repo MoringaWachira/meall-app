@@ -2,6 +2,9 @@ import React from 'react'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
 import {FaTiktok} from 'react-icons/fa'
+import {SiGmail} from 'react-icons/si'
+import {BsFillTelephoneFill} from 'react-icons/bs'
+import {ImLocation} from 'react-icons/im'
 function Contact() {
   return (
     <div className='icons'>
@@ -12,9 +15,9 @@ function Contact() {
           <FaTiktok className='social-icon'/>
        </div>
        <div>
-            <p>Email:chakula@gmail.com</p>
-            <p>+254 700000000</p>
-            <p>+254 735009000</p>
+            <p><span><SiGmail/></span> Email:chakula@gmail.com</p>
+            <p><span><BsFillTelephoneFill /></span> Tel no:  +254 700000000</p>
+            <p><span><ImLocation /></span> Location Nairobi-Kenya</p>
        </div>
     </div>
   )
