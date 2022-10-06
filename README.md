@@ -1,10 +1,9 @@
 # Meal-app
 # Author
-# AgriPLus-website
-# Author
 Silvia Wachira
 # Description
-This is a project creating the website of a business called Agriplus.
+This is a project creating tan app called meal app that recommends food choices to people
+who have a hard time figuring out what to eat
 # Technologies Used
 *HTML<br>
 *CSS
