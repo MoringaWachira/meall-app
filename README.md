@@ -6,7 +6,10 @@ This is a project creating tan app called meal app that recommends food choices 
 who have a hard time figuring out what to eat
 # Technologies Used
 *HTML<br>
-*CSS
+*CSS<br>
+*JavaScript<br>
+*React
+
 # Set Up Instructions
 * Open the terminal command line[ctrl+alt+t]<br>
 * Clone the repository<br>
