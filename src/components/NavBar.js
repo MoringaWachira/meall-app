@@ -5,9 +5,12 @@ import { NavLink } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className='nav'>
-        <NavLink className='nav-links' to='/Home'>Home</NavLink>
-        <NavLink className='nav-links' to='/About'>About</NavLink>
-        <NavLink className='nav-links' to='/Recipe'>Recipe</NavLink>
+      <h3>Nitakula nini? </h3>
+      <div className='nav-links-wrap'>
+            <NavLink className='nav-links' to='/Home'>Home</NavLink>
+            <NavLink className='nav-links' to='/About'>About</NavLink>
+            <NavLink className='nav-links' to='/Contact'>Contact</NavLink>
+      </div>
 
     </nav>
   )

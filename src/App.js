@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import Recipe from './components/Recipe';
+import Recipe from './components/Contact';
 import Search from './components/Search';
 import { useState, useEffect} from 'react';
 import recipes from "./recipes.json"
@@ -50,12 +50,12 @@ function App() {
     <div className="App">
             <NavBar />
 
-      <h1 className='heading'>CHAKULA APP</h1>
-      <div>
+      {/* <h1 className='heading'>CHAKULA APP</h1> */}
+      <div className='info'>
         <h4>{welcome}</h4>
-        <p>timezone {time.timezone}</p>
-        <p>Day of the week {time.day_of_week}</p>
-        <p> abbreviation {time.abbreviation}</p>
+        <p><span>timezone</span> {time.timezone}</p>
+        <p><span>Day of the week</span> {time.day_of_week}</p>
+        <p> <span>abbreviation</span> {time.abbreviation}</p>
       </div>
    
       <Search meals={meals}/>

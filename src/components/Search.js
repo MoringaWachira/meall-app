@@ -3,6 +3,8 @@ import React,{useState} from 'react'
 
 function Search(props) {
   const [choice, setChoice] = useState("")
+  const [dish, setDish] = useState("")
+  const [show, setShow] = useState(false)
 
   let mealData = props.meals
   let timeMeal 
@@ -12,6 +14,8 @@ function Search(props) {
   }
   console.log(props.meals)
 
+  let randomMeal
+
   function selectMeal(param,e) {
     e.preventDefault()
     
@@ -20,11 +24,12 @@ function Search(props) {
     })
     // let meal = mealData.filter(item => item["title"] === param)
     timeMeal = meal[0].recommendations
-    console.log(timeMeal)
-   let randomMeal = timeMeal[Math.floor(Math.random() * timeMeal.length)]
-   
-    console.log(randomMeal)
+    randomMeal = timeMeal[Math.floor(Math.random() * timeMeal.length)]
+    setDish(randomMeal)
+    setShow(true)
+
   }
+console.log(dish)
 
 
   return (
@@ -39,6 +44,7 @@ function Search(props) {
         </select>
         <button onClick={(e) => selectMeal(choice,e)}>submit</button>
       </form>
+      {show ? <h3>you should try {dish}</h3> : ""}
 
      
       
@@ -50,9 +56,3 @@ function Search(props) {
 
 export default Search;
 
-
-// <select value="Radish">
-            //         <option value="Orange">Orange</option>
-            //         <option value="Radish">Radish</option>
-            //         <option value="Cherry">Cherry</option>
-            // </select>
