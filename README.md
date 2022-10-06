@@ -13,8 +13,8 @@ who have a hard time figuring out what to eat
 # Set Up Instructions
 * Open the terminal command line[ctrl+alt+t]<br>
 * Clone the repository<br>
-* cd AgriPlus-website<br>
-* Open index.html file on your browser
+* cd Meal-app<br>
+* create React app
 # Live page
 # License
 MIT License
