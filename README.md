@@ -2,14 +2,17 @@
 =======
 # Meal-App
 # Author
-# AgriPLus-website
+# Meal-App
 # Author
 Silvia Wachira
 # Description
 This is a project creating the website of a business called Agriplus.
 # Technologies Used
 *HTML<br>
-*CSS
+*CSS<br>
+*React Js
+*Java Script
+*Json Server
 # Set Up Instructions
 * Open the terminal command line[ctrl+alt+t]<br>
 * Clone the repository<br>
