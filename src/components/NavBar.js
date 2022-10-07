@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className='nav'>
-      <h3>Nitakula nini? </h3>
+      <h3 className='heading' >Chakula App </h3>
       <div className='nav-links-wrap'>
             <NavLink className='nav-links' to='/Home'>Home</NavLink>
             <NavLink className='nav-links' to='/About'>About</NavLink>

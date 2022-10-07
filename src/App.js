@@ -53,10 +53,10 @@ function App() {
 
       {/* <h1 className='heading'>CHAKULA APP</h1> */}
       <div className='info'>
-        <h4>{welcome}</h4>
-        <p><span>timezone</span> {time.timezone}</p>
+        <h4>{welcome.toLocaleUpperCase()}</h4>
+        <p><span>Timezone</span> {time.timezone}</p>
         <p><span>Day of the week</span> {time.day_of_week}</p>
-        <p> <span>abbreviation</span> {time.abbreviation}</p>
+        <p> <span>Abbreviation</span> {time.abbreviation}</p>
       </div>
    
       <Search meals={meals}/>

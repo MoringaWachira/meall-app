@@ -35,16 +35,16 @@ console.log(dish)
   return (
       
     <div>
-      <form>
-        <select defaultValue={"value"} onChange={handleChange}>
+      <form className='form' >
+        <select className='select' defaultValue={"value"} onChange={handleChange}>
               <option value='value' > --select-- </option>
               {props.meals.map((items, index)=>{
                   return <option key={index} value={items.title}>{items.title}</option>
                 })}
         </select>
-        <button onClick={(e) => selectMeal(choice,e)}>submit</button>
+        <button className='btn' onClick={(e) => selectMeal(choice,e)}>submit</button>
       </form>
-      {show ? <h3>you should try {dish}</h3> : ""}
+      {show ? <h3 className='form' >you should try {dish}</h3> : ""}
 
      
       

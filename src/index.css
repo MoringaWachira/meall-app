@@ -15,7 +15,7 @@ body {
   min-width: 100vw;
   align-items: center;
   padding: 0 1rem;
-  background-color: #7BDFF2;
+  background-color: #b8bedd;
   
 }
 
@@ -39,6 +39,24 @@ body {
   font-size: 50px;
   font-style: oblique;
   /* color: #fed000; */
+}
+
+.btn {
+  background-color: #22333b;
+  height: 2.5rem;
+}
+.comment {
+  height: 2.5rem;
+}
+.select {
+  height: 2.5rem;
+  width: 100px;
+}
+.info {
+  margin-left: 900px;
+  font-size: 30px;
+  /* align-items: center; */
+
 }
 
 .info span{
